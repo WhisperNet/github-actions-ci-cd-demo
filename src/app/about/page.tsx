@@ -28,7 +28,7 @@ export default function About() {
           <div className="text-center">
             <h1 className="text-5xl font-bold text-gray-800 mb-6">About Us</h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              We're a passionate team dedicated to building amazing web
+              We&apos;re a passionate team dedicated to building amazing web
               experiences with the latest technologies and best practices.
             </p>
           </div>
@@ -48,8 +48,8 @@ export default function About() {
             </p>
             <p className="text-gray-600 mb-6">
               Our journey began with a small team of developers who shared a
-              common vision: to push the boundaries of what's possible with web
-              technologies like Next.js, React, and TypeScript.
+              common vision: to push the boundaries of what&apos;s possible with
+              web technologies like Next.js, React, and TypeScript.
             </p>
             <div className="grid grid-cols-2 gap-4">
               <div className="text-center p-4 bg-white rounded-lg shadow">

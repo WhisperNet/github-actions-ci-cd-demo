@@ -61,8 +61,8 @@ export default function Contact() {
               Contact Us
             </h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Have a question or want to work together? We'd love to hear from
-              you.
+              Have a question or want to work together? We&apos;d love to hear
+              from you.
             </p>
           </div>
         </div>
@@ -83,7 +83,7 @@ export default function Contact() {
                   Message Sent!
                 </h3>
                 <p className="text-gray-600">
-                  Thank you for your message. We'll get back to you soon.
+                  Thank you for your message. We&apos;ll get back to you soon.
                 </p>
               </div>
             ) : (
@@ -170,8 +170,8 @@ export default function Contact() {
                 Get in touch
               </h2>
               <p className="text-gray-600 text-lg mb-8">
-                We're here to help and answer any question you might have. We
-                look forward to hearing from you.
+                We&apos;re here to help and answer any question you might have.
+                We look forward to hearing from you.
               </p>
             </div>
 

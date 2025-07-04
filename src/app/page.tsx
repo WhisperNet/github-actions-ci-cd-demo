@@ -1,6 +1,5 @@
 'use client';
 
-import Image from 'next/image';
 import Link from 'next/link';
 import { useState, useEffect } from 'react';
 
@@ -30,7 +29,7 @@ export default function Home() {
       setCurrentFeature((prev) => (prev + 1) % features.length);
     }, 3000);
     return () => clearInterval(interval);
-  }, []);
+  }, [features.length]);
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100">
