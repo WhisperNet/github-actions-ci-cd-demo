@@ -22,7 +22,7 @@ jobs:
           key: ${{ secrets.EC2_SSH_KEY }}
           port: 22
           script: |
-            cd ./github-actions-ci-cd
+            cd ./github-actions-ci-cd-demo
             git pull origin main
             chmod +x deploy.sh
             ./deploy.sh
